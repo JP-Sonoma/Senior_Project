@@ -1,0 +1,6 @@
+# Progress 4.7.2024
+Multitude of notebooks were created a long time ago and were not explained so here goes a long explaination. Current progress, attempted to run [hls4ml](https://fastmachinelearning.org/hls4ml/) in an attempt to convert our model to HLS for faster processing. This came with some issues as the YOLOv3 model that is being used need to be converted tO [KERAS](https://keras.io/) OR [ONNX](https://onnx.ai/). This proved difficut so a change needed to be done
+
+[YOLOv5 by Ultralytics](https://docs.ultralytics.com/yolov5/) is another option that was taken a look at. This is due to the fact that it can be [exported onto multiple formats](https://docs.ultralytics.com/yolov5/tutorials/model_export/) which includes ONNX. This was attempted and an attempt to finish the conversion was done but it failed. From here we are looking into attempting to run the onnx model on the PYNQ board as this is a supported format to work. An attempt was successfully made and the model ran on the board but it is slower than the YOLOv3 model that was made.
+
+Another attempt to accelerate the process is being done with the the [vitis vision library tutorial](https://xilinx.github.io/xup_compute_acceleration/index.html).
