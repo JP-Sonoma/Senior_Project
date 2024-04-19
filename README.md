@@ -6,3 +6,6 @@ This folder holds all the weights developed for running YOLOv3 and YOLOv5 on the
 
 ## Notebooks
 This folder holds all the notebooks to run code on the PYNQ board. Its expected that the PYNQ board has an image of [PYNQ](https://www.pynq.io/boards.html) framework added onto it. All current progress will be recorded here in a [readme.md file](https://github.com/JP-Sonoma/Senior_Project/blob/main/notebooks/README.md).
+
+## Research and Data Creation
+Here will most likey be any progress into research into Vitis HLS and Vitis IDE for accelerating the openCV preprocssing. This will be using the vitis vision
