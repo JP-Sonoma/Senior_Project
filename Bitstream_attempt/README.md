@@ -1,1 +1,0 @@
-Attempting to create a bitstream for loading onto the pynq board for hardware acceleration
